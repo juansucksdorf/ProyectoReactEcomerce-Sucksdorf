@@ -1,3 +1,14 @@
 .NumeroCart{
+    margin: 8px;
+    padding: 10px;
     color: white;
+    
+}
+
+.cart-conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    
 }

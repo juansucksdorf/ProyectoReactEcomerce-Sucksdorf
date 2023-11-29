@@ -1,0 +1,27 @@
+.CardItem{
+background-color: rgb(93, 86, 99);
+width: 100%;
+
+}
+.Header{
+    font-size: medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+.ItemImg{
+    width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  object-position: center;
+}
+
+.ItemFooter{
+    display: flex;
+    align-items: center;
+}
+.custom-btn{
+    font-size: 16px; 
+    padding: 10px 20px
+}

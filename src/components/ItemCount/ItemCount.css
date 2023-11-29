@@ -1,6 +1,6 @@
 .Button {
-    width: 5rem;
-    height: 3rem;
+    width: 3rem;
+    height: 2rem;
     background-color: rgb(225, 215, 213);
     color: black;
     text-decoration: solid;
@@ -11,15 +11,20 @@
     
 
 }
-.Controls{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.Counter{
-    background-color: #c38e2b;
-    width: 300px;
-    height: 300px;
-    
-}
+.Counteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }
+  
+  
+  .Controls {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .Controls button {
+    margin: 10 px; 
+  }
+  
 

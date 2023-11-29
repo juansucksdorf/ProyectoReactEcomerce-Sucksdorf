@@ -1,0 +1,28 @@
+.custom-btn {
+    padding: 15px;
+    text-align: center;
+    font-size: 2px;
+    justify-content: center;
+  }
+
+  .CardItem{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .Header{
+    color: aliceblue;
+
+  }
+
+  .ItemHeader{
+    color: aliceblue;
+  }
+  .ItemImg{
+    width: fit-content;
+    height: 25rem;
+  }
+  .Info{
+    color: aliceblue;
+    font-size: 1.5rem;
+  }
