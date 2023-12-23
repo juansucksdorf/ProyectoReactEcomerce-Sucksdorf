@@ -1,28 +1,52 @@
-.custom-btn {
-    padding: 15px;
-    text-align: center;
-    font-size: 2px;
-    justify-content: center;
-  }
+.itemDetail{
+  background-color: black;
+}
+.CardItem {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
 
-  .CardItem{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-  .Header{
-    color: aliceblue;
+.Header {
+  margin-bottom: 10px;
+}
 
-  }
+.ItemHeader {
+  font-size: 1.5rem;
+  margin: 0;
+}
 
-  .ItemHeader{
-    color: aliceblue;
-  }
-  .ItemImg{
-    width: fit-content;
-    height: 25rem;
-  }
-  .Info{
-    color: aliceblue;
-    font-size: 1.5rem;
-  }
+.ItemImg {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.Info {
+  margin-bottom: 8px;
+}
+
+.ItemFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.ItemFooter .Option {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+  margin-bottom: 8px;
+  width: 45%; 
+  box-sizing: border-box;
+}
+
