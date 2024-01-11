@@ -4,7 +4,7 @@ import { getProducts } from '../asyncMock';
 import {getAuth} from 'firebase/auth'
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
+  apiKey: "AIzaSyDdnBk2BZZ6A8kX_EZYN6unO_I9PJdNxVQ",
   authDomain: "ecomerce-6fc8f.firebaseapp.com",
   projectId: "ecomerce-6fc8f",
   storageBucket: "ecomerce-6fc8f.appspot.com",
